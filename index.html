@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Target Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px gray;
+            width: 300px;
+        }
+
+        img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-box">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Target_logo.svg" alt="Target Logo">
+
+        <h2>Target Login</h2>
+
+        <form>
+            <input type="text" placeholder="Username" required><br>
+
+            <input type="password" placeholder="Password" required><br>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+</body>
+</html>
